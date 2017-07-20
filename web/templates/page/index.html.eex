@@ -1,0 +1,4 @@
+<%= raw @html %>  
+<script type="text/javascript">
+  window.__INITIAL_STATE__=<%= @initial_state |> Poison.encode! |> raw %>
+</script>
